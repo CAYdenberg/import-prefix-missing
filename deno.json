@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch -A server.ts"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["import-prefix-missing"]
+    }
+  }
+}
